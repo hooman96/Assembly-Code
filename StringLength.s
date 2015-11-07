@@ -14,6 +14,7 @@ str2:
 
 strlength:
 
+
 _start:
 	push $str1
 	call strlength
@@ -22,4 +23,5 @@ _start:
 	push $str2
 	call strlength	
 	addl $4, %esp
-	
+
+done:
