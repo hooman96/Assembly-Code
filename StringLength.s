@@ -18,3 +18,8 @@ _start:
 	push $str1
 	call strlength
 	addl $4, %esp
+
+	push $str2
+	call strlength	
+	addl $4, %esp
+	
