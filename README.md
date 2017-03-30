@@ -1,10 +1,14 @@
 # Assembly-Code
 Useful functions and assembly files
 
-Compile and Linking Steps:
+Compile, Linking and Running Steps:
 
-as --gstabs --32 -o {file}.o {file}.s
+```
+$ as --gstabs --32 -o {file}.o {file}.s
 
-ld -melf_i386 -o {file}.out {file}.o
+$ ld -melf_i386 -o {file}.out {file}.o
 
-./{file}.out
+$ ./{file}.out
+```
+
+note: file name can be anything!
